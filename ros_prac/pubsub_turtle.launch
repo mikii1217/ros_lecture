@@ -1,0 +1,5 @@
+<launch>
+  <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />
+  <node name="pubsub_test" pkg="ros_prac" type="pubsub_test.py" />
+</launch>
+
